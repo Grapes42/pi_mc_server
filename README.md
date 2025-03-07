@@ -29,7 +29,7 @@ Connect to Pi and setup with:
 ```
 $ sftp user@hostname
 $ put files/.bash_aliases .
-$ put files/.server_commands.txt
+$ put files/.server_commands.txt .
 $ put [paper file] server
 $ echo "cat .server_commands.txt"
 $ exit

@@ -1,6 +1,6 @@
-alias run="cd /home/pi/server && java -jar paper*.jar"
+alias run="cd /home/$USER/server && java -jar paper*.jar"
 alias temp="/usr/bin/vcgencmd measure_temp | sed 's/^.*=//'"
-alias session="cd /home/pi && tmux new -Asmain"i
+alias session="cd /home/$USER && tmux new -Asmain"i
 alias la='ls -a --color -h --group-directories-first'
 alias py="python3"
 
