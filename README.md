@@ -13,6 +13,7 @@
 ## 2. Download Requirements
 
 - Download [Paper](https://papermc.io/downloads/paper) and store it in this project directory.
+- Download the required version of [Java](https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html) (likely 21)
 - Download any other plugins you want
 
 ## 3. Install Programs
@@ -22,7 +23,11 @@ Connect to Pi and install programs with:
 $ ssh user@hostname
 $ sudo apt update
 $ sudo apt install tmux vim
-$ 
+$ sudo tar -xzf [java tar]
+$ sudo mv [java folder] /opt
+$ sudo update-alternatives --install /usr/bin/java java /opt/[java folder]/bin/java 1
+(Select option 1)
+$ sudo update-alternatives --config java
 $ exit
 ```
 
@@ -33,7 +38,7 @@ $ sftp user@hostname
 $ put files/.bash_aliases .
 $ put files/.server_commands.txt .
 $ put [paper file] server
-$ echo "cat .server_commands.txt"
+$ echo "cat .server_commands.txt" >> .bashrc
 $ exit
 ```
 
