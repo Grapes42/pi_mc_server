@@ -20,7 +20,9 @@
 Connect to Pi and install programs with:
 ```
 $ ssh user@hostname
+$ sudo apt update
 $ sudo apt install tmux vim
+$ 
 $ exit
 ```
 
