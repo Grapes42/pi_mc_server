@@ -2,10 +2,19 @@
 
 ## 1. Install Raspbian
 
-Using the Raspberry Pi Imager, install Raspbian
+- Using the Raspberry Pi Imager, install Raspbian
 
-Select Pi Model, Select Raspbian 64bit lite, select your SD Card
+- Select Pi Model, Select Raspbian 64bit lite, select your SD Card
 
-Setup SSH
+- Select 'Enable SSH'
 
-## 2. 
+- Write
+
+## 2. Download Requirements
+
+- Download [Paper](https://papermc.io/downloads/paper) and store it in this project directory.
+- Download any other plugins you want
+
+
+
+##

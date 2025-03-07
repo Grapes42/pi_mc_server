@@ -1,0 +1,13 @@
+
+Server Commands:
+- run
+- test-ports
+- temp
+
+TMUX Commands:
+- session
+- list
+
+All:
+- stats
+- log
